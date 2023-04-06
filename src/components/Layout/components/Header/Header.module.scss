@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 var( --default-layout-horizontal-spacer);
 }
 
 .search,
@@ -90,6 +91,7 @@
   background-color: transparent;
   margin-left: 30px;
   padding: 4px 8px;
+  cursor: pointer;
 }
 .menu-items{
   width: 224px;
